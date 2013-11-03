@@ -1,0 +1,118 @@
+body 
+{
+color: #000000; 
+background-color: #FFFFFF;
+margin-left: 20px;
+font-family: Helvetica;
+}
+
+p  
+{
+font-size: 1em;
+margin: 10px;
+margin-top: 0px;
+
+}
+
+h1 
+{
+font-size: 1.8em; 
+color: #8ca571;
+margin: 10px;
+}
+
+
+
+h2 
+{  
+font-size: 1.2em; 
+margin: 10px;
+}
+
+h3 
+{  
+font-size: 1.1em; 
+margin-bottom: 0px;
+}
+
+
+
+
+a {color: #000000; text-decoration: none}
+a:visited {color: #a4a5a3; text-decoration: none}
+a:hover {color: #8ca571; text-decoration: underline}
+
+
+#header {
+width: 100%;
+}
+
+#nav {
+position: relative;
+height: 24px;
+border-bottom: 1px solid #8ca571;
+width: 98%;
+margin: auto;
+}
+
+
+#nav a {color: #000000; font-weight: bold; text-decoration: none; margin-right: 10px;}
+#nav a:visited {color: #000000; }
+#nav a:hover {color: #8ca571; }
+
+#nav p {
+margin-left: 0px;
+}
+
+
+
+#section {
+position: relative;
+width: 75%;
+float: left;
+
+}
+
+#aside {
+position: relative;
+width: 25%;
+float: left;
+}
+
+#footer {
+position: relative;
+margin-left: auto;
+margin-right: auto;
+height: 42px;
+
+
+
+}
+
+#main {
+border: 1px solid #8ca571;
+clear: both;
+overflow: auto;
+border-radius: 15px;
+
+}
+
+@media screen and (max-width: 480px) { 
+
+#section {
+float: none;
+width: 100%;
+}
+
+#aside {
+float: none;
+width: 100%;
+}
+
+}
+
+
+
+
+
+
